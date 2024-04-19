@@ -17,12 +17,12 @@ Currently data is loaded from SICK2014 dataset. You can change the data source i
 pip install -r requirements.txt
 ```
 
-2. Run the UI 
+2. Run the UI. It will run the `streamlit` UI
 ```bash
 make run
 ```
 
-3. Optional: Run the tests
+3. Optional: Run the tests. The tests also include some time and memory testing. 
 ```bash
 make test
 ```
