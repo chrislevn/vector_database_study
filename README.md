@@ -10,10 +10,11 @@ Currently data is loaded from SICK2014 dataset. You can change the data source i
 [Blog post](https://christopherle.com/blog/2024/research-on-vector-db/)
 
 ## Features: 
-⭐ Supports FLAT, IVF, HNSW, PQ, SQ, and DiskANN (WIP) index. 
-⭐ Have unit test with time and memory breakdown. 
-⭐ Support simple UI Test with Streamlit.
-⭐ Easy-to-get-started repo to study vector database and index.
+- ⭐ Supports FLAT, IVF, HNSW, PQ, SQ, and DiskANN (WIP) index.
+- ⭐ Vector Database from scratch with cache, embedding model from Transformers. 
+- ⭐ Have unit test with time and memory breakdown. 
+- ⭐ Support simple UI Test with Streamlit.
+- ⭐ Easy-to-get-started repo to study vector database and index.
 
 ## Takeways: 
 - FLAT is good but is slow. 
