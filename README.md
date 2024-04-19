@@ -1,4 +1,6 @@
 # Vector Database from scratch study
+[![Unit Test](https://github.com/chrislevn/vector_database_study/actions/workflows/unit-test.yml/badge.svg)](https://github.com/chrislevn/vector_database_study/actions/workflows/unit-test.yml)
+
 This project studies different index methods in vector databases and how one can create a simple vector database from scratch.
 Current supported index methods: FLAT, IVF, HNSW, PQ, SQ. 
 
