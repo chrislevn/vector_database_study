@@ -4,6 +4,8 @@ Current supported index methods: FLAT, IVF, HNSW, PQ, SQ.
 
 Currently data is loaded from SICK2014 dataset. You can change the data source in helper.py.
 
+[Blog post](https://christopherle.com/blog/2024/research-on-vector-db/)
+
 ## Takeways: 
 - FLAT is good but is slow. 
 - HNSW is the fastest but the accuracy is not as good as IVF.
