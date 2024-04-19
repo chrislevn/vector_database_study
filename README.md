@@ -13,7 +13,6 @@ Currently data is loaded from SICK2014 dataset. You can change the data source i
 
 ## Current issues: 
 - The loading time is long. I handled this with cache in the helper.py file. In returns, the accuracy might be affected. Need to figure out why. 
-- 
 
 ## Components
 - `index.py`: contains the implementation of the vector database indexes.
@@ -62,5 +61,3 @@ docs for more detail on building and pushing.
 ### References
 * [Docker's Python guide](https://docs.docker.com/language/python/) -->
 
-## Future improvements
-1. Loading time for data preprocessing. I'm looking to understand how to improve the loading time for the data preprocessing. I'm considering using a database to store the data and load it faster.
