@@ -4,6 +4,15 @@ Current supported index methods: FLAT, IVF, HNSW, PQ, SQ.
 
 Currently data is loaded from SICK2014 dataset. You can change the data source in helper.py.
 
+## Takeways: 
+- FLAT is good but is slow. 
+- HNSW is the fastest but the accuracy is not as good as IVF.
+- I don't use wrappers like Langchain. I want to study the concepts not build the tool at production level. The pro of this is full control of the code.
+
+## Current issues: 
+- The loading time is long. I handled this with cache in the helper.py file. In returns, the accuracy might be affected. Need to figure out why. 
+- 
+
 ## Components
 - `index.py`: contains the implementation of the vector database indexes.
 - `main.py` :contains the implementation of the vector database.
