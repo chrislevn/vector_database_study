@@ -9,6 +9,12 @@ Currently data is loaded from SICK2014 dataset. You can change the data source i
 
 [Blog post](https://christopherle.com/blog/2024/research-on-vector-db/)
 
+## Features: 
+⭐ Supports FLAT, IVF, HNSW, PQ, SQ, and DiskANN (WIP) index. 
+⭐ Have unit test with time and memory breakdown. 
+⭐ Support simple UI Test with Streamlit.
+⭐ Easy-to-get-started repo to study vector database and index.
+
 ## Takeways: 
 - FLAT is good but is slow. 
 - HNSW is the fastest but the accuracy is not as good as IVF.
@@ -67,3 +73,4 @@ docs for more detail on building and pushing.
 ## Future development
 - Figure out ways to make VectorDB faster and less memory consuming. (although there are tradeoffs but it is work in progress depending on the use case). 
 - Implement this in low-level languages like C++ or Rust!.
+- Finish DiskANN implementation.
