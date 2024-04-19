@@ -64,3 +64,6 @@ docs for more detail on building and pushing.
 ### References
 * [Docker's Python guide](https://docs.docker.com/language/python/) -->
 
+## Future development
+- Figure out ways to make VectorDB faster and less memory consuming. (although there are tradeoffs but it is work in progress depending on the use case). 
+- Implement this in low-level languages like C++ or Rust!.
